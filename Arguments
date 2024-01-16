@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+void birthday(char x[], int y)
+{
+    
+    printf("Your name is %s", x);
+    printf("You are %d years old", y);
+    
+}
+int main()
+{
+    
+    char name[12];
+    int age;
+    
+    printf("What is your name?");
+    scanf("%s", &name);
+    
+    printf("How old are you?");
+    scanf("%d", &age);
+    
+    birthday(char name [], int age);
+    
+    return 0;
+}
